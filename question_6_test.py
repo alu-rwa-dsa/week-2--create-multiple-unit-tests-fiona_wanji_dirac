@@ -40,3 +40,5 @@ class TestRemoveSpace(unittest.TestCase):
         for element in values:
             self.assertRaises(TypeError, remove_space2, element)
 
+if __name__ == "__main__":
+    unittest.main()

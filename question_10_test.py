@@ -24,3 +24,7 @@ class Test_get_sequence(unittest.TestCase):
         values = [True, "dirac", 1.5, {"d" : "2"}, ["abc", "def"], None]
         for element in values:
             self.assertRaises(TypeError, get_sequence, element)
+
+
+if __name__ == "__main__":
+    unittest.main()

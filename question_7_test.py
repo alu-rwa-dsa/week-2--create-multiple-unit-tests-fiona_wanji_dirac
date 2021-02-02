@@ -18,3 +18,6 @@ class Test_count_letters(unittest.TestCase):
         values = [True, 1, 1.5, {"d" : "2"}, ["abc", "def"], None]
         for element in values:
             self.assertRaises(TypeError, count_letters, element)
+
+if __name__ == "__main__":
+    unittest.main()
