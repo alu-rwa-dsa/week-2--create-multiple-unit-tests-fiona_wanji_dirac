@@ -1,3 +1,4 @@
+#import
 #simple implementatin using builtin methods
 def remove_space(str_1):
     new_str = str_1.split()

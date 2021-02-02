@@ -1,3 +1,4 @@
+#import
 def get_sequence(n):
     #create an empty list
     if type(n) is not int:
